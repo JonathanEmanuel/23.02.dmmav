@@ -1,0 +1,43 @@
+/*  Encabezado  */
+h1 {
+    color: white;
+    font-size: 46px;
+    text-align: center;
+    background-color: rgb(63, 63, 223);;
+}
+
+.bgRojo {
+    background-color: tomato;
+}
+
+.bgVerde {
+    background-color: green;
+}
+h2 {
+    color: slateblue;
+    font-size: 16px;
+}
+
+.tituloRojo{
+    color: red;
+}
+
+h4 {
+    color: slateblue;
+}
+
+/* ID tiene mayor jeraquia */
+#idAzul {
+    color: blue;
+}
+
+.verde {
+    color: green
+}
+
+
+
+
+
+
+/* Contenido del main*/
