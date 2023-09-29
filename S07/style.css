@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Satisfy&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: slateblue;
+    height: 150px;
+}
+
+h1 {
+    color: blue;
+}
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+h2 {
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    text-align: center
+}
+
+p {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    line-height: 24px;
+    text-indent: 20px;
+}
+
+h1 {
+    background-color: slateblue;
+}
+
+/* Menú de navegavción */
+nav {
+    background-color: brown;
+    padding: 20px;
+    margin: 50px
+}
+
+ul li {
+    display: inline-block;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat';
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+section {
+    background-color: lightsalmon;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    margin-top: 56px;
+    margin-left: 30px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* OTRA FORMA DE SELECCIONAR */
+footer {
+    background: lightgreen;
+    margin-top: 70px;
+}
+
+footer p {
+    font-style: italic;
+}
