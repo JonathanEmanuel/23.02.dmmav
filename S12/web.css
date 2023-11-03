@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: lightcoral;
+    height: 200px;
+}
+
+nav {
+    height: 100px;
+    background-color: rgb(42, 42, 42);
+    color: white;
+    width: 100%;
+
+    position: sticky;
+    top: 0px;
+}
+
+main {
+    height: 1700px;
+    background-color: bisque;
+}
+
+footer {
+    height: 100px;
+    background-color: black;
+}
