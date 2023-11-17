@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 45px;
+}
+h4 {
+    font-size: 1.3rem;
+    color:  rgb(51, 49, 49);;
+}
+header, footer {
+    background-color: rgb(51, 49, 49);
+    color: whitesmoke;
+
+}
+header {
+    height: 150px;
+}
+footer {
+    height: 30px;
+    padding: 10px;
+}
+
+footer p {
+    text-align: center;
+}
+main {
+    max-width: 1200px;
+    margin: auto;
+    min-height: 800px;
+}
+
+.container {
+    padding: 2rem;
+   
+}
+
+.box {
+    border: 1px solid slateblue;
+    border-radius: 0.9rem;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    padding: 0.5rem;
+    padding-top: 60px;
+    overflow: hidden;
+}
+.box h4 {
+    text-align: center;
+    text-shadow: 2px 2px 1cqmax #fff;
+}
+
+.box img {
+    width: 100%;
+}
+
+/* Transformaciones */
+.translate {
+    background-color: tomato;
+    transform: translate(-10px, 30px);
+}
+
+.rotate {
+    padding: 0;
+    transform-origin: top right;
+    transform: 
+        rotate(-30deg) translate(-100px) skew(30deg);
+    
+}
+
+.rotateY {
+    padding: 0;
+    transform: rotateY(-55deg);
+}
+
+.skew {
+    background-image: url(../S13/images/foto3.jpg);
+    background-size: cover;
+    transform: skewX(-30deg);
+}
+
+.foto {
+    background-image: url(../S13/images/foto4.jpg);
+    background-size: cover;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+.foto:hover {
+    transform-origin: center center;
+    transform: scale(1.2) translate(50%) skew(45deg);
+    transition: all ease-in-out 2s;
+}
+
+.foto2 {
+    box-shadow: 2px 2px 5px #000;
+    background-image: url(../S13/images/pic1.jpg);
+    background-size: cover;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.foto2:hover {
+    box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
+    transform: translateY(-8px);
+    transition: all 1.5s ease-in-out;
+}
+
+.blue {
+    border: none;
+    background-color: rgb(39, 167, 247);
+    cursor: pointer;
+}
+
+.blue:hover {
+  background-color: tomato;
+  width: 200px;
+  border-radius: 50%;
+  
+  transition: 
+    background-color ease-in-out 3ms,
+    width ease 1ms,
+    border-radius ease-out 4s;
+}
